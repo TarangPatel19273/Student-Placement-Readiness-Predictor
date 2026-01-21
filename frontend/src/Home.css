@@ -1,0 +1,65 @@
+.home-container {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fa;
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(90deg, #2d3e50 60%, #f9d342 100%);
+  color: #fff;
+  padding: 4rem 2rem 3rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  background: #f9d342;
+  color: #2d3e50;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.cta-btn:hover {
+  background: #ffe066;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  padding: 2rem 1.5rem;
+  min-width: 220px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature h2 {
+  color: #2d3e50;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  color: #555;
+}
